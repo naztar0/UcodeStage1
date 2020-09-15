@@ -1,0 +1,9 @@
+if [ -f "$1" ]; then
+    rm $1
+    exit 0
+fi
+if [ -d "$1" ]; then
+    rmdir $1
+     exit 0
+fi
+exit "File or directory does not exist"
