@@ -1,7 +1,7 @@
-#include "../inc/header.h"
+#include "playlist.h"
 
-unsigned long mx_strlen(const char *s) {
-	unsigned long i = 0;
-	for (; s[i] != '\0'; i++);
+int mx_strlen(const char *s) {
+	int i;
+	for(i = 0; s[i] != '\0'; i++){}
 	return i;
 }

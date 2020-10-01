@@ -1,6 +1,5 @@
-#include "../inc/header.h"
+#include "playlist.h"
 
-void mx_printerr(char *err) {
-    write(2, err, mx_strlen(err));
-    exit(-1);
+void mx_printerr(const char *s) {
+    write(2, s, mx_strlen(s));
 }
