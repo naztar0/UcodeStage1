@@ -14,7 +14,7 @@
  * "1..8" - сами цвета
  */
 
-#include "../inc/header.h"
+#include "header.h"
 #include <locale.h>
 
 

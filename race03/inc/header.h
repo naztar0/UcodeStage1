@@ -2,8 +2,6 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdlib.h>
-#include <stdio.h>
 
 #define JAPANESE {"ア", "イ", "ウ", "エ", "オ", "カ", "キ", "ク", "ケ", "コ", "サ", "シ", "ス", "セ", "ソ", "ガ", "ギ", "グ", "ゲ", "ゴ", "パ", "ピ", "プ", "ペ", "ポ"}
 
